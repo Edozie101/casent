@@ -1,1 +1,1 @@
-web: bundle exec ruby web.rb -p $PORT
+web: rackup -s puma -p $PORT
